@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: #ffcd07;
+  background: #f3c91f;
   color: #3a0faf;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -40,11 +40,11 @@ body {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: #42b1c0;
+  color: #000000;
   padding: 16px 20px;
   font-size: 1.1rem;
   font-weight: 500;
-  background: #fa2121;
+  background: #92666600;
   border: 1px solid #4b1111;
   border-radius: 12px;
   transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
