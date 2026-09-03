@@ -4,8 +4,8 @@
 
 body {
   margin: 0;
-  background:#141414;
-  color: #f8f5ff;
+  background:#520c55;
+  color: #a385eb;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 /* Portfolio styles */
 .content h1 {
-  color:rgb(218, 24, 24);
+  color:rgb(253, 253, 253);
 }
 
 #portfolio {
@@ -40,7 +40,7 @@ body {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: #444;
+  color: #ecb3ee;
   padding: 16px 20px;
   font-size: 1.1rem;
   font-weight: 500;
@@ -51,7 +51,7 @@ body {
 }
 
 #portfolio a:hover {
-  background:#000;
+  background:#a140aa;
   color:#fff;                        
   transform: translateX(4px);
 }
@@ -92,12 +92,12 @@ h2 {
   font-weight: 900;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  color: #e94560; /* bright accent */
+  color: #b700ff; /* bright accent */
 }
 
 .content > p {
   margin: 0;
-  color: #a8b2d8;
+  color: #0a0a0a;
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
@@ -132,8 +132,8 @@ h2 {
   font-size: 1rem;
   font-weight: 600;
   padding: 10px 20px;
-  background: #1d1b1b;
-  border: 1px solid #ddd;
+  background: #000000;
+  border: 1px solid #8b55c9;
   border-radius: 100px;
   transition:
     background 0.25s ease,
@@ -156,8 +156,7 @@ h2 {
   object-fit: cover;
   display: block;
   border-radius: 16px;
-  filter: grayscale(100%);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 30px rgba(228, 153, 247, 0.808);
   transition:
     filter 0.4s ease,
     transform 0.4s ease,
@@ -165,9 +164,8 @@ h2 {
 }
 
 .sidebar-img:hover {
-  filter: grayscale(0%);
   transform: translateY(-4px);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 16px 40px rgba(228, 142, 142, 0.18);
 }
 
 nav {
